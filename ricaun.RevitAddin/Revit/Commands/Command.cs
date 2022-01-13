@@ -12,6 +12,8 @@ namespace ricaun.RevitAddin.Revit.Commands
         {
             UIApplication uiapp = commandData.Application;
 
+            System.Windows.MessageBox.Show("Hello Revit");
+
             return Result.Succeeded;
         }
     }
