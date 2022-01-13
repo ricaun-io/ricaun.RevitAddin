@@ -90,9 +90,9 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Company>Company</Company>
-    <Authors>Authors</Authors>
-    <Description>Revit Add-In Description for $(PackageId).</Description>
+    <Company>ricaun</Company>
+    <Authors>Luiz Henrique Casssettari</Authors>
+    <Description>Project $(PackageId).</Description>
     <CopyrightYears>$([System.DateTime]::Now.ToString('yyyy'))</CopyrightYears>
   </PropertyGroup>
 
