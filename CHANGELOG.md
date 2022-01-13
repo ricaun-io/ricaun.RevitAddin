@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [1.0.0] / 2022-01-13
+- Add App
+- Add RevitAddin32.png
+- Add Resources
 - Update Application
 - First Release
 
