@@ -2,13 +2,12 @@
 
 Create an executable file to install the ricaun.RevitAddin using the [AppBundle Autodesk] format with the [Nuke PackageBuilder].
 
+[![Revit 2017](https://img.shields.io/badge/Revit-2017+-blue.svg)](../..)
+[![Visual Studio 2019](https://img.shields.io/badge/Visual%20Studio%202019-16.11.7+-blue)](../..)
+[![Nuke](https://img.shields.io/badge/Nuke-Build-blue)](https://nuke.build/)
+[![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Publish](../../actions/workflows/Publish.yml/badge.svg)](../../actions)
 [![Develop](../../actions/workflows/Develop.yml/badge.svg)](../../actions)
-
-## Build Requirements
-
-* Visual Studio 2019 - 16.11.7 or Later
-* [Nuke] - Cross-platform build automation system
 
 ## Release
 
@@ -36,4 +35,3 @@ Copyright © 2022 ricaun
 
 [AppBundle Autodesk]: https://www.autodesk.com/autodesk-university/class/AppBundle-Cross-Distribution-Autodesk-Products-App-Store-and-Forge-2020
 [Nuke PackageBuilder]: https://github.com/ricaun-io/ricaun.Nuke.PackageBuilder
-[Nuke]: https://github.com/nuke-build/nuke
