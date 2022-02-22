@@ -109,15 +109,12 @@
   <ItemGroup>
     <None Include="Revit\App.cs" />
     <None Include="Revit\Commands\Command.cs" />
-    <None Include="FodyWeavers.xml" />
   </ItemGroup>
-
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" IncludeAssets="build; compile" PrivateAssets="All" />
-    <PackageReference Include="PropertyChanged.Fody" Version="2.5.9.0" IncludeAssets="build; compile" PrivateAssets="All" />
     <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="$(RevitVersion).*" IncludeAssets="build; compile" PrivateAssets="All" />
-    <PackageReference Include="ricaun.Revit.UI" Version="0.0.4" />
+    <PackageReference Include="ricaun.Revit.UI" Version="*" />
   </ItemGroup>
 
 
