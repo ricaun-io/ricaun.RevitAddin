@@ -13,9 +13,9 @@ namespace ricaun.RevitAddin.Revit
         public Result OnStartup(UIControlledApplication application)
         {
             panel = application.CreatePanel("RevitAddin");
-            var button = panel.AddPushButton<Commands.Command>();
-            button.LargeImage = Resources.Resource.RevitAddin32.GetBitmapSource();
-            button.Image = Resources.Resource.RevitAddin32.GetBitmapSource().Scale(0.5);
+            panel.AddPushButton<Commands.Command>()
+                .SetLargeImage(Resources.Resource.RevitAddin32.GetBitmapSource());
+
             return Result.Succeeded;
         }
 
