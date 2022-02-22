@@ -25,8 +25,4 @@ namespace ricaun.RevitAddin.Revit
             return Result.Succeeded;
         }
     }
-
-    internal class ConsoleAttribute : Attribute
-    {
-    }
 }
