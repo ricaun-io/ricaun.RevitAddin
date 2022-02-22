@@ -21,7 +21,7 @@ namespace ricaun.RevitAddin.Revit
 
         public Result OnShutdown(UIControlledApplication application)
         {
-            panel.Close();
+            panel.Remove();
             return Result.Succeeded;
         }
     }
