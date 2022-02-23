@@ -77,7 +77,7 @@
 
   <PropertyGroup>
     <PackageId>ricaun.RevitAddin</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <ProjectGuid>{7bb6726e-34ae-4f8b-b4fb-9ad63118e4c9}</ProjectGuid>
   </PropertyGroup>
 
