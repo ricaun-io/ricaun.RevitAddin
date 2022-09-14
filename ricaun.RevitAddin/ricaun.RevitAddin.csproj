@@ -75,6 +75,13 @@
     <DebugType>Full</DebugType>
   </PropertyGroup>
 
+  <!-- DebugRevitVersion -->
+  <PropertyGroup Condition="$(Configuration.Contains('Debug'))">
+    <DebugRevitVersion>$(RevitVersion)</DebugRevitVersion>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\Autodesk\Revit $(DebugRevitVersion)\Revit.exe</StartProgram>
+  </PropertyGroup>
+  
   <PropertyGroup>
     <PackageId>ricaun.RevitAddin</PackageId>
     <Version>1.0.1</Version>
@@ -112,7 +119,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" IncludeAssets="build; compile" PrivateAssets="All" />
+    <PackageReference Include="Newtonsoft.Json" Version="*" IncludeAssets="build; compile" PrivateAssets="All" />
     <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="$(RevitVersion).*" IncludeAssets="build; compile" PrivateAssets="All" />
     <PackageReference Include="ricaun.Revit.UI" Version="*" />
   </ItemGroup>
